@@ -1,2 +1,2 @@
 # Movies
-![alt tag](https://media.giphy.com/media/xTiN0EXhmE9oiGhNwA/giphy.gif)
+![alt tag](https://github.com/tolyasjar/Movies/blob/master/Movies.gif?raw=true)

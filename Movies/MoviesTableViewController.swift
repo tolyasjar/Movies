@@ -19,7 +19,7 @@ class MoviesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        downloadRestaurants()
+        downloadMovies()
     }
 
     override func didReceiveMemoryWarning() {
@@ -108,7 +108,7 @@ class MoviesTableViewController: UITableViewController {
     
     // MARK: - Populate movies
 
-    fileprivate func downloadRestaurants() {
+    fileprivate func downloadMovies() {
        
         let moviesAPI = "http://www.omdbapi.com/?s=Harry_Potter&page=\(i)"
 
@@ -152,7 +152,7 @@ class MoviesTableViewController: UITableViewController {
             }
             if (self.i < self.numberOfPages){
                 
-                self.downloadRestaurants()
+                self.downloadMovies()
             } else {
             //print(jsonMoviesArray)
             
